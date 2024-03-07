@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(9, 79, 28);
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    flex: 1;
+}
+
+.logo-img {
+    width: 80px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    align-items: center; 
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+.Body{
+    margin: auto;
+   display: flex;
+   font-size: 30px;
+   font-family: cursive;
+   position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.my {
+    margin: auto;
+    display: flex;
+}
+
+span {
+    color: red;
+}
+
+.New {
+    text-align: center;
+    font-size: 24px;
+    color: rgb(38, 189, 78);
+    font-family: cursive;
+}
+
+.Taste {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Taste img {
+    max-width: 100%;
+    height: auto;
+    display: ruby-text;
+}
+
+
+.fruit {
+    width: 100vh;
+    height: 100px;
+    
+}
+
+.apple-necter{
+    width: 150px;
+}
+
+
+.Taste{
+    width: 200px;
+    margin-left: 50px;
+}
+
